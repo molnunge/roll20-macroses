@@ -1,0 +1,7 @@
+// Long rest macros works on top of API script added to your game:  https://github.com/Roll20/roll20-api-scripts/blob/master/ChatSetAttr/README.md 
+// You shall be GM with Plus or Pro profile
+
+!longrest @{selected|character_name}
+!setattr --silent --sel --class_resource|@{selected|class_resource|max}
+!setattr --silent --sel --other_resource|@{selected|other_resource|max}
+&{template:default} {{name=**Отдохнувший** @{selected|character_name}}}{{Здоровья = @{selected|hp|max}}}{{Заклинаний = сколько можешь}}{{Потенциал = пополнен (hit dice)}}{{@{selected|class} = есть @{selected|class_resource_name} }}{{@{selected|race} = есть @{selected|other_resource_name} }}
