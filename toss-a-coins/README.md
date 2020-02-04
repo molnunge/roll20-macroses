@@ -15,3 +15,10 @@
 ##### User Story LR-Coins-type: As a player I want to select coins type to proceed with transaction so I won't do math and do more roleplay.
 ###### acceptance criteria:
  
+##### User Story LR-Coins-type: As a player I want to rearange coins type so most common currency will be defualt.
+###### acceptance criteria:
+* gp
+* sp
+* cp
+* ep
+* pp
